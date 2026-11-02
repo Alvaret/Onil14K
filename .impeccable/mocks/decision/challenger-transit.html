@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;background:#0b1430;color:#f2efe6;
+  font-family:'Hanken Grotesk',system-ui,sans-serif;padding:24px 22px;position:relative}
+.belt{position:absolute;top:0;left:0;right:0;height:6px;
+  background:linear-gradient(90deg,#e23f46 0 33%,#f5b83d 33% 66%,#3fa66b 66% 100%)}
+.mast{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:14px;border-bottom:1px solid #24335c}
+.mast .t{font-size:15px;font-weight:800;letter-spacing:.04em}
+.mast .s{font-size:11px;color:#8fa0c8;margin-top:2px}
+.mast .c{text-align:right}
+.mast .c b{display:block;font-size:34px;font-weight:800;line-height:1;color:#f5b83d}
+.mast .c i{font-style:normal;font-size:10px;color:#8fa0c8}
+.line{display:flex;align-items:center;gap:10px;margin:18px 0 6px}
+.line .dot{width:14px;height:14px;border-radius:50%;background:#3fa66b;flex:none}
+.line .dot.open{background:#f2efe6;border:4px solid #f5b83d;box-shadow:0 0 0 3px rgba(245,184,61,.25)}
+.line b{font-size:13px;font-weight:700;letter-spacing:.03em}
+.line small{font-size:10.5px;color:#8fa0c8;margin-left:auto}
+.trace{margin-left:7px;height:190px;border-left:4px solid #3fa66b;position:relative;overflow:visible}
+.st{position:relative;padding:0 0 0 22px;margin-top:-4px}
+.st::before{content:'';position:absolute;left:-9px;top:8px;width:14px;height:14px;border-radius:99px;
+  background:#25407c;border:2px solid #4d6dbb}
+.st.here::before{background:#f2efe6;border:2px solid #f5b83d;box-shadow:0 0 0 4px rgba(245,184,61,.2)}
+.st.done::before{background:#3fa66b;border-color:#3fa66b}
+.st .r{display:flex;gap:8px;align-items:baseline;padding-top:1px}
+.st .code{font-size:9px;font-weight:800;letter-spacing:.1em;color:#8fa0c8;width:30px}
+.st .nm{font-size:14px;font-weight:700}
+.st .tm{font-size:10.5px;color:#8fa0c8;margin-left:auto}
+.st.here{background:#1a2852;border-radius:10px;padding:10px 12px 10px 22px;margin-left:-12px}
+.st.here .nm{font-size:15.5px}
+.st.here::before{top:14px}
+.st .dep{font-size:11px;color:#9db1d4;line-height:1.45;margin-top:2px}
+.stats{display:flex;gap:8px;margin-top:18px}
+.stats div{flex:1;background:#132046;border:1px solid #24335c;border-radius:12px;padding:10px 12px}
+.stats b{display:block;font-size:19px;font-weight:800}
+.stats b.amber{color:#f5b83d}
+.stats span{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#8fa0c8}
+.legend{margin-top:16px;font-size:10px;color:#8fa0c8;display:flex;gap:14px}
+.legend i{font-style:normal;display:flex;align-items:center;gap:6px}
+.legend s{width:10px;height:10px;border-radius:50%;background:#25407c;border:2px solid #4d6dbb;display:inline-block;text-decoration:none}
+.tab{position:absolute;left:22px;right:22px;bottom:20px;display:flex;background:#132046;
+  border:1px solid #24335c;border-radius:14px;overflow:hidden}
+.tab button{flex:1;border:0;background:transparent;color:#8fa0c8;font-family:inherit;font-size:13px;
+  font-weight:600;padding:13px 0;cursor:pointer}
+.tab .on{background:#f5b83d;color:#0b1430;border-radius:11px;outline:3px solid #f5b83d}
+</style></head><body>
+<div class="belt"></div>
+<div class="mast">
+  <div><div class="t">14K Onil Trails</div><div class="s">Línea B0 · Base cero</div></div>
+  <div class="c"><b>132</b><i>días a la carrera</i></div>
+</div>
+<div class="line"><s class="dot"></s><b>Línea B0 · noviembre</b><small>21 estaciones</small></div>
+<div class="trace">
+  <div class="st done"><div class="r"><span class="code">B0-01</span><span class="nm">Fuerza en casa</span><span class="tm">✓ 45'</span></div>
+    <div class="dep">Sentadillas, gomas elásticas · protege rodillas</div></div>
+  <div class="st done"><div class="r"><span class="code">B0-02</span><span class="nm">Caminata rápida Z1–Z2</span><span class="tm">✓ 45'</span></div></div>
+  <div class="st"><div class="r"><span class="code">B0-03</span><span class="nm">Descanso</span><span class="tm">—</span></div></div>
+  <div class="st here"><div class="r"><span class="code">B0-04</span><span class="nm">Trote corto + caminata</span><span class="tm">HOY · 30'</span></div>
+    <div class="dep">Aptenimiento 5' · alterna 2' trote / 1' caminar · Z1–Z2</div></div>
+  <div class="st"><div class="r"><span class="code">B0-05</span><span class="nm">Caminata larga</span><span class="tm">60'</span></div></div>
+</div>
+<div class="stats">
+  <div><b>2/21</b><span>Completados</span></div>
+  <div><b class="amber">0</b><span>Retraso</span></div>
+  <div><b>52<span style="font-size:12px;color:#8fa0c8">/100</span></b><span>Reto caminata</span></div>
+</div>
+<div class="legend"><i><s style="background:#3fa66b;border-color:#3fa66b"></s>hecha</i><i><s style="background:#f2efe6;border-color:#f5b83d"></s>estación de hoy</i><i><s></s>pendiente</i></div>
+<div class="tab"><button class="on">🏃 Entrenamientos</button><button>🍎 Nutrición</button></div>
+</body></html>

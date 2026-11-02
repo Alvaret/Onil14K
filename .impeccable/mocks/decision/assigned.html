@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{width:390px;height:844px;overflow:hidden;background:#f6f3ec;color:#181714;
+  font-family:'Archivo',system-ui,sans-serif;position:relative}
+.grain{position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(24,23,20,.05) .6px,transparent .6px);background-size:5px 5px}
+.mast{position:sticky;display:flex;justify-content:space-between;align-items:flex-end;
+  padding:18px 20px 0}
+.mast .t{font-weight:900;font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+.mast .s{font-size:11px;color:#6d675c;letter-spacing:.08em;text-transform:uppercase;margin-top:2px}
+.mast .c{text-align:right}
+.mast .c b{display:block;font-size:44px;font-weight:900;line-height:.9;color:#c22d20}
+.mast .c i{font-style:normal;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#6d675c}
+.reto{margin:14px 20px 0;padding:10px 14px;border:1.5px dashed #c22d20;border-radius:2px;
+  display:flex;align-items:baseline;gap:10px}
+.reto .n{font-family:'Caveat',cursive;font-size:30px;font-weight:700;color:#c22d20;line-height:1}
+.reto p{font-size:12px;line-height:1.45;color:#33302a}
+.reto p b{color:#181714}
+.stats{display:flex;gap:0;padding:16px 20px 6px;border-bottom:1.5px solid #181714}
+.stat{flex:1;padding:0 10px 12px}
+.stat + .stat{border-left:1px solid #d8d2c4}
+.stat b{display:block;font-size:22px;font-weight:700}
+.stat span{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#6d675c}
+.stat b.red{color:#c22d20}
+.month{padding:14px 20px 0;display:flex;justify-content:space-between;align-items:baseline}
+.month h2{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.month small{font-size:10px;color:#6d675c;letter-spacing:.06em}
+.grid{margin:10px 20px 0;border:1.5px solid #181714;border-radius:3px;overflow:hidden}
+.rule{display:grid;grid-template-columns:28px repeat(7,1fr)}
+.rule > div{padding:8px 2px;text-align:center;font-size:8.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:#6d675c;border-bottom:1px solid #d8d2c4}
+.rule > div:first-child{border-right:1px solid #d8d2c4}
+.wk{border-top:1px solid #181714}
+.wk + .wk{}
+.wk .rule > div{padding:10px 2px 12px;color:#181714;border-bottom:none;font-size:9px}
+.wk .rule > div:first-child{font-weight:700;border-right:1px solid #d8d2c4;padding-top:12px}
+.cell{position:relative;min-height:64px}
+.cell .d{font-weight:500}
+.cell .mark{font-family:'Caveat',cursive;font-size:30px;font-weight:700;color:#c22d20;
+  line-height:.7;display:block;margin-top:2px}
+.cell .x{font-size:8px;letter-spacing:.02em;color:#33302a;text-align:center;margin-top:1px}
+.cell.rest .x{color:#b9b2a2}
+.cell .run{position:absolute;left:2px;right:2px;bottom:6px;font-size:9.5px;font-weight:700;
+  line-height:1.5;border-top:1px solid #d8d2c4;padding-top:-40px}
+.today{background:#181714;color:#f6f3ec;border-radius:2px;outline:2px solid #181714;
+  outline-offset:-5px}
+.today .d{color:#f6f3ec}
+.today.today{position:relative}
+.today .hover{font-family:'Caveat',cursive;color:#f6f3ec}
+.pen{font-family:'Caveat',cursive;color:#c22d20}
+.today .t{display:block;font-size:7.5px;letter-spacing:.12em;text-transform:uppercase;color:#f6f3ec;margin-top:2px}
+.today .run{border-top-color:#3a382f;color:#e8e2d2;bottom:5px}
+.legend{display:flex;gap:14px;padding:12px 20px 0;font-size:9px;letter-spacing:.06em;color:#6d675c;
+  text-transform:uppercase}
+.legend b{color:#c22d20;font-weight:400}
+.legend i{font-style:normal}
+footer{position:absolute;left:20px;right:20px;bottom:18px;display:flex;justify-content:space-between;
+  font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#6d675c;
+  border-top:1.5px solid #181714;padding-top:10px}
+footer b{color:#181714}
+</style></head><body>
+<div class="grain"></div>
+<div class="mast">
+  <div><div class="t">14K Onil Trails</div><div class="s">Bloque B0 · Base cero</div></div>
+  <div class="c"><b>132</b><i>días para la carrera</i></div>
+</div>
+
+<div class="reto"><span class="n">52</span><p><b>Reto caminata · día 52 de 100.</b> Hoy tocan 35 min de caminar. El 26 nov sube a 40 min.</p></div>
+<div class="stats">
+  <div class="stat"><b>0/21</b><span>Completados</span></div>
+  <div class="stat"><b class="red">0</b><span>Retraso</span></div>
+  <div class="stat"><b>--</b><span>FC máx</span></div>
+</div>
+<div class="month"><h2>Noviembre · Semana 1</h2><small>El bloque arranca el lunes 9</small></div>
+<div class="grid">
+  <div class="rule"><div>S</div><div style="color:#c22d20;letter-spacing:.1em">SEM 1</div><div>L</div><div>M</div><div>X</div><div>J</div><div>V</div><div>S</div><div>D</div></div>
+  <div class="wk">
+    <div class="rule">
+      <div style="color:#b9b2a2">—</div>
+      <div><span class="d">1</span><span class="x">dom</span></div>
+      <div><span class="d">2</span><span class="mark">✗</span><span class="x">caminata</span></div>
+      <div><span class="d">3</span><span class="mark">✗</span><span class="x">fuerza</span></div>
+      <div><span class="d">4</span><span class="mark">✗</span><span class="x">caminata</span></div>
+      <div><span class="d">5</span><span class="x rest">descanso</span></div>
+      <div><span class="d">6</span><span class="mark">✗</span><span class="x">caminata</span></div>
+      <div><span class="d">7</span><span class="mark">✗</span><span class="x">fuerza</span></div>
+      <div><span class="d">8</span><span class="x rest">descanso</span></div>
+    </div>
+  </div>
+  <div class="wk">
+    <div class="rule">
+      <div>45'<br>rodilla</div>
+      <div><span class="d">9</span><span class="mark">✗</span><span class="x">fuerza casa</span></div>
+      <div><span class="d">10</span><span class="mark">✗</span><span class="x">caminata Z1-2</span></div>
+      <div><span class="d">11</span><span class="x rest">descanso</span></div>
+      <div><span class="d">12</span><span class="pen">✎</span><span class="t" style="font-family:'Archivo',sans-serif">TROTÉ<br>CORTO</span></div>
+      <div><span class="d">13</span><span class="x">caminata</span></div>
+      <div><span class="d">14</span><span class="x">test FC</span></div>
+      <div><span class="d">15</span><span class="x rest">descanso</span></div>
+    </div>
+  </div>
+</div>
+<div class="legend"><i><b>✗</b> hecho</i><i>día en tinta</i><i><i style="color:#b9b2a2">gris</i> descanso</i><i><b style="font-weight:400">⚠</b> esquí</i></div>
+<footer><span><b>Reto:</b> 52/100 días encadena</span><span>localStorage · sin cuentas</span></footer>
+</body></html>

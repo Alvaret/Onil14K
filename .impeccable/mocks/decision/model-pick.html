@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;background:#efe7d4;color:#26221a;
+  font-family:'Libre Franklin',system-ui,sans-serif;position:relative;padding:24px 22px}
+.paper{position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(rgba(38,34,26,.045) .7px,transparent .7px);background-size:6px 6px}
+.mast{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2.5px double #26221a;padding-bottom:12px}
+.h1{font-size:15px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.h1 small{display:block;font-size:10px;font-weight:500;letter-spacing:.14em;color:#7c7466;margin-top:3px}
+.count{text-align:right}
+.count b{display:block;font-size:36px;font-weight:800;line-height:.95}
+.count i{font-style:normal;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#7c7466}
+.week{margin-top:16px}
+.wh{display:flex;justify-content:space-between;align-items:baseline}
+.wh b{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em}
+.wh span{font-family:'Caveat',cursive;font-size:17px;color:#8a3b1f}
+.day{display:flex;gap:10px;padding:10px 2px;border-bottom:1px solid #cfc5ac;align-items:baseline}
+.day .dt{width:52px;font-size:10px;font-weight:600;letter-spacing:.04em;color:#7c7466;text-transform:uppercase}
+.day .l{flex:1;font-size:14px;font-weight:600;line-height:1.3}
+.day .l em{display:block;font-style:normal;font-size:10.5px;font-weight:400;color:#7c7466;margin-top:1px}
+.day .mark{font-family:'Caveat',cursive;font-size:26px;font-weight:700;color:#8a3b1f;width:28px;text-align:center}
+.tidy{margin:14px 0;border:1.5px solid #26221a;padding:10px 13px;background:#f7f1e1}
+.tidy b{font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.tidy p{font-size:12px;line-height:1.5;margin-top:2px}
+.tidy .hand{font-family:'Caveat',cursive;font-size:19px;color:#8a3b1f;line-height:1.3;margin-top:4px}
+.hoy{flex:1;border:2px solid #26221a;background:#f7f1e1;box-shadow:5px 5px 0 rgba(38,34,26,.14);padding:14px 16px;overflow:hidden}
+.hoy .h{display:flex;justify-content:space-between;align-items:baseline}
+.hoy .h span{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8a3b1f}
+.hoy .h small{font-size:9px;color:#7c7466;letter-spacing:.08em}
+.hoy .t{font-size:21px;font-weight:800;line-height:1.2;margin-top:4px}
+.hoy .steps{margin-top:8px;font-size:12px;line-height:1.55;color:#443e33}
+.hoy .steps i{font-style:normal;color:#8a3b1f;font-family:'Caveat',cursive;font-size:17px;margin-right:6px}
+.go{margin-top:12px;display:block;text-align:center;background:#26221a;color:#f7f1e1;font-weight:800;
+  letter-spacing:.08em;font-size:12px;text-transform:uppercase;padding:12px 0;border-radius:2px}
+.ftr{margin-top:16px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#7c7466;
+  display:flex;justify-content:space-between;border-top:1px solid #cfc5ac;padding-top:8px}
+</style></head><body>
+<div class="paper"></div>
+<div class="mast">
+  <div><div class="h1">14K Onil Trails<small>Plan semanal del entrenador · B0</small></div>
+    <div></div></div>
+  <div class="count"><b>132</b><i>días para la carrera</i></div>
+</div>
+<div class="tidy"><b>Reto caminata · día 52 de 100</b><p>35 min de caminar hoy. El 26 nov subimos a 40.</p>
+  <p class="hand">"la cadena no se rompe: 52 ✗ seguidas"</p></div>
+<div class="week">
+  <div class="wh"><b>Semana 1 · 9–15 nov</b><span>rodillas primero</span></div>
+  <div class="day"><span class="dt">lun 9</span><span class="l">Fuerza en casa<em>Sentadilla, gomas · protege rodillas</em></span><span class="mark">✗</span></div>
+  <div class="day"><span class="dt">mar 10</span><span class="l">Caminata rápida Z1–Z2<em>Se tiene que poder hablar en frases</em></span><span class="mark">✗</span></div>
+  <div class="day"><span class="dt">mié 11</span><span class="l">Descanso</em></span><span class="mark" style="color:#7c7466">—</span></div>
+  <div class="day"><span class="dt">jue 12</span><span class="l">Trote corto + caminata</span><span class="mark">✗</span></div>
+</div>
+<div class="hoy">
+  <div class="h"><span>HOY · mar 10</span><small>45' · RPE 4</small></div>
+  <div class="t">Caminata rápida (base aeróbica)</div>
+  <div class="steps">
+    <i>1.</i>45 min caminando rápido por camino o asfalto<br>
+    <i>2.</i>Z1–Z2: en frases completas · FC 140–150 tras tu test<br>
+    <i>3.</i>Anota: min · sensaciones rodillas
+  </div>
+  <span class="go">Marcar día como completado ✓</span>
+</div>
+<div class="ftr"><span>0/21 del bloque</span><span>Semana 1 de 3</span><span>Local, sin cuentas</span></div>
+</body></html>

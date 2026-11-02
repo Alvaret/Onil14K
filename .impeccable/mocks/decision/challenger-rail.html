@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Tech-Sized&family=Archivo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;background:#101014;color:#f09d20;
+  font-family:'Archivo',system-ui,sans-serif;position:relative}
+.mesh{position:absolute;inset:0;pointer-events:none;
+  background-image:repeating-linear-gradient(90deg,rgba(240,157,32,.07) 0 1px,transparent 1px 10px),
+  repeating-linear-gradient(0deg,rgba(240,157,32,.07) 0 1px,transparent 1px 10px)}
+.hr{border:0;border-top:0}
+.pg{position:relative;height:100%;padding:26px 24px;display:flex;flex-direction:column}
+.mast{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:0;border-top:0}
+.h1{font-size:15px;font-weight:900;letter-spacing:.3em;text-transform:uppercase}
+.sub{font-size:11px;color:#bfbfae;margin-top:3px}
+.count{text-align:right}
+.count b{display:block;font-size:38px;font-weight:900;letter-spacing:.04em;line-height:1}
+.count i{font-style:normal;font-size:9px;letter-spacing:.2em;color:#bfbfae}
+.bar{margin:14px 0;height:1px;background:#f09d20;opacity:.7}
+.reto{border:2px solid #f09d20;padding:10px 12px;font-size:12px;line-height:1.5;color:#ffd47a;margin-bottom:14px}
+.reto b{color:#f09d20}
+.tabs{display:flex;gap:0;margin-bottom:12px;border:1px solid #f09d20}
+.tab{flex:1;text-align:center;padding:9px 0;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.tab.on{background:#f09d20;color:#101014}
+.tab + .tab{border-left:1px solid #f09d20}
+.stat{display:flex;gap:0;border:1px solid #f09d20;margin-bottom:14px}
+.stat div{flex:1;padding:10px 0;text-align:center}
+.stat div+div{border-left:1px solid #f09d20}
+.stat b{display:block;font-size:21px;font-weight:900}
+.stat span{font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;color:#ffd47a}
+.days{display:flex;flex-direction:column;row-gap:1.5px}
+.day{display:flex;align-items:center;gap:0;border:1px solid rgba(240,157,32,.55);padding:7px 10px;font-size:12px}
+.day+.day{}
+.day .c{width:58px;font-weight:900;letter-spacing:.05em;font-size:13px}
+.day .l{flex:1;line-height:1.3}
+.day .m{width:64px;text-align:right;font-size:10.5px;color:#ffd47a}
+.day.done{background:rgba(240,157,32,.14);color:#f09d20}
+.day.today{background:#f09d20;color:#101014;font-weight:700}
+.day.today .m{color:#101014;font-weight:700}
+.day .st{width:44px;text-align:right;font-size:9px;letter-spacing:.12em;text-transform:uppercase}
+.day.today .st{font-weight:900}
+.ftr{margin-top:auto;border-top:1px solid #f09d20;padding-top:9px;font-size:8.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:#bfbfae;display:flex;justify-content:space-between}
+</style></head><body>
+<div class="mesh"></div>
+<div class="pg">
+  <div class="mast">
+    <div><div class="h1">14K ONIL TRAILS</div><div class="sub">PÁGINA 100 · RETO CAMINATA DÍA 52 DE 100</div></div>
+    <div class="count"><b>132</b><i>DÍAS A LA CARRERA</i></div>
+  </div>
+  <div class="bar"></div>
+  <div class="reto"><b>RETO CAMINATA:</b> HOY 35 MIN CAMINANDO. EL 26 NOV SUBE A 40 MIN (DÍA 75).</div>
+  <div class="tabs"><div class="tab on">ENTRENAMIENTOS</div><div class="tab">NUTRICIÓN</div></div>
+  <div class="stat">
+    <div><b>2/21</b><span>COMPLETADOS</span></div>
+    <div><b>0</b><span>RETRASO</span></div>
+    <div><b>--</b><span>FC MÁX</span></div>
+  </div>
+  <div class="days">
+    <div class="day done"><span class="c">B0-01</span><span class="l">Fuerza en casa · gomas + sentadilla</span><span class="m">45'</span><span class="st">HECHO</span></div>
+    <div class="day done"><span class="c">B0-02</span><span class="l">Caminata rápida Z1–Z2</span><span class="m">45'</span><span class="st">HECHO</span></div>
+    <div class="day"><span class="c">B0-03</span><span class="l">Descanso · movilidad suave</span><span class="m">—</span><span class="st">PEND</span></div>
+    <div class="day today"><span class="c">B0-04</span><span class="l">Trote corto + caminata · 2'/1'</span><span class="m">30'</span><span class="st">HOY</span></div>
+    <div class="day"><span class="c">B0-05</span><span class="l">Caminata larga</span><span class="m">60'</span></div>
+    <div class="day"><span class="c">B0-06</span><span class="l">Fuerza en casa · piernas</span><span class="m">40'</span></div>
+    <div class="day"><span class="c">B0-07</span><span class="l">Test FC máx + trote suave</span><span class="m">40'</span></div>
+  </div>
+  <div class="ftr"><span>SEMANA 1 DE 3 · TERMINA 29 NOV</span><span>GUARDA LOCAL · SIN CUENTAS</span></div>
+</div>
+</body></html>

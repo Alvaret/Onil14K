@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Archivo+Narrow:wght@400;500;600;700&family=Archivo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;background:#e9e3d1;color:#17150f;
+  font-family:'Archivo Narrow',system-ui,sans-serif;position:relative}
+.rake{position:absolute;top:-60px;left:-40px;right:-60px;bottom:-40px;transform:skewX(-11deg);
+  transform-origin:left top}
+.bed{position:absolute;inset:0;background:linear-gradient(135deg,#d9a12e 0%,#e5b13b 45%,#d99b22 100%)}
+.layer{position:absolute;inset:0;transform:skewX(11deg);transform-origin:left top;background:#e9e3d1;
+  box-shadow:0 0 0 999px rgba(0,0,0,0)}
+.pg{position:relative;height:100%;padding:22px 22px;display:flex;flex-direction:column}
+.mast{display:flex;justify-content:space-between;align-items:flex-start}
+.h1{font-family:'Oswald',sans-serif;font-size:23px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.02em;line-height:1.05}
+.h1 small{display:block;font-family:'Archivo Narrow',sans-serif;font-size:10px;font-weight:600;
+  letter-spacing:.22em;color:#8a6a15;margin-top:3px}
+.count{text-align:right}
+.count b{font-family:'Oswald',sans-serif;font-size:40px;font-weight:700;line-height:.9;display:block}
+.count i{font-style:normal;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#7a5b12}
+.reto{margin:12px 0;border:1.5px solid #17150f;background:#f4efd9;padding:9px 12px;
+  font-size:12px;line-height:1.5;font-weight:500}
+.reto b{color:#b3231b}
+.tick{display:flex;align-items:center;gap:10px;margin-bottom:6px;font-size:10px;
+  letter-spacing:.14em;text-transform:uppercase;color:#7a5b12}
+.tick .rail{flex:1;height:2px;position:relative}
+.tick .rail::before{content:'';position:absolute;left:0;right:38%;height:3px;top:-1px;background:#17150f}
+.stat{display:flex;gap:0;margin-bottom:12px;border:1.5px solid #17150f;background:#f4efd9}
+.stat div{flex:1;padding:9px 0;text-align:center}
+.stat div+div{border-left:1.5px solid #17150f}
+.stat b{display:block;font-family:'Oswald',sans-serif;font-size:22px;font-weight:700}
+.stat.amber b{color:#b3231b}
+.stat span{font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:#7a5b12}
+.cutoff{font-family:'Oswald',sans-serif;font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:#7a5b12;margin-bottom:8px;display:flex;justify-content:space-between}
+.day{display:flex;align-items:baseline;gap:8px;border-top:1.5px solid rgba(23,21,15,.35);
+  padding:7px 0 6px;font-size:13px;font-weight:500}
+.day .code{font-family:'Oswald',sans-serif;font-size:14px;font-weight:700;color:#b3231b;width:44px}
+.day .l{flex:1;line-height:1.25}
+.day .m{font-size:11px;color:#6b6250;white-space:nowrap}
+.day .m b{font-weight:700;color:#17150f}
+.day.today{margin-left:-10px;margin-right:-10px;padding-left:10px;padding-right:10px;
+  background:#17150f;color:#f4efd9;box-shadow:4px 4px 0 #b3231b}
+.day.today .code{color:#f4efd9}
+.day.today .m{color:#cfc7ae}
+.st{font-size:9px;letter-spacing:.14em;text-transform:uppercase;width:48px;text-align:right}
+.day.done .st{color:#2e6b3f;font-weight:700}
+.resta{font-family:'Oswald',sans-serif;font-weight:700}
+.ftr{margin-top:auto;border-top:1.5px solid rgba(23,21,15,.35);padding-top:8px;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;color:#7a5b12;display:flex;justify-content:space-between}
+</style></head><body>
+<div class="rake"><div class="bed"></div></div>
+<div class="layer"><div class="pg">
+  <div class="mast">
+    <div><div class="h1">14K Onil Trails<small>B0 · BASE CERO · 9–29 NOV 2026</small></div></div>
+    <div class="count"><b>132</b><i>días · salida 09:00</i></div>
+  </div>
+  <div class="reto"><b>RETO CAMINATA</b> · día 52 de 100. Hoy 35 min andando; el 26 nov sube a 40.</div>
+  <div class="tick"><span>DOM 1</span><span class="rail"></span><span>SEM 1 · DOM 15</span></div>
+  <div class="stat">
+    <div><b>2/21</b><span>completados</span></div>
+    <div class="stat stat amber"><b>0</b><span>retraso</span></div>
+    <div><b>--</b><span>FC máx</span></div>
+  </div>
+  <div class="cutoff"><span>CORTES: 7.4 KM — 10:30 · 10 KM — 12:00</span><span>META 13:00</span></div>
+  <div class="day done"><span class="code">B0-01</span><span class="l">Fuerza en casa · gomas + sentadilla</span><span class="m"><b>45'</b></span><span class="st">hecho</span></div>
+  <div class="day done"><span class="code">B0-02</span><span class="l">Caminata rápida Z1–Z2</span><span class="m"><b>45'</b></span><span class="st">hecho</span></div>
+  <div class="day"><span class="code">B0-03</span><span class="l">Descanso · movilidad</span><span class="m">—</span></div>
+  <div class="day today"><span class="code">B0-04</span><span class="l">Trote corto + caminata 2'/1'</span><span class="m"><b>30'</b></span><span class="st hit">HOY</span></div>
+  <div class="day"><span class="code">B0-05</span><span class="l">Caminata larga</span><span class="m"><b>60'</b></span></div>
+  <div class="day"><span class="code">B0-06</span><span class="l">Fuerza en casa · piernas</span><span class="m"><b>40'</b></span></div>
+  <div class="day"><span class="code">B0-07</span><span class="l">Test FC máx + trote suave</span><span class="m"><b>40'</b></span></div>
+  <div class="ftr"><span>TIQUE: SEM 1/3</span><span>LOCAL · SIN CUENTAS</span></div>
+</div></div>
+</body></html>

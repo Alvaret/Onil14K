@@ -1,0 +1,12 @@
+{
+  "name": "Onil14K Tracker",
+  "short_name": "Onil14K",
+  "description": "Seguimiento de entrenamientos y nutrición para el 14K Onil Trails",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

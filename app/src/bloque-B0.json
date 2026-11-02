@@ -1,0 +1,1380 @@
+{
+  "metadata": {
+    "carrera": "14K Onil Trails",
+    "fecha_carrera": "2027-03-14",
+    "hora_salida": "09:00",
+    "bloque": "B0",
+    "bloque_descripcion": "Base cero: cimientos, aprender a trotar sin romper las rodillas y medir tu FC max real",
+    "fecha_inicio_bloque": "2026-11-09",
+    "fecha_fin_bloque": "2026-11-29",
+    "fecha_revision_bloque": "2026-11-29",
+    "atleta": {
+      "edad": 26,
+      "peso_inicial_kg": 85,
+      "fc_max": null,
+      "molestias": [
+        "rodillas"
+      ],
+      "material": "Kit de gomas elasticas con asas (Comprado, Decathlon 29,99 EUR) + mancuernas ajustables hasta 20 kg (compra conjunta preparada) + esterilla pendiente de comprar",
+      "dispositivo": "Strava + pulsometro de pecho"
+    },
+    "esqui": {
+      "temporada_inicio": "2027-01-07",
+      "temporada_fin": "2027-02-07",
+      "fines_de_semana_variables": true,
+      "semana_completa": [
+        "2027-01-18",
+        "2027-01-24"
+      ]
+    },
+    "objetivo": "Terminar dentro del corte con margen hasta 3h30",
+    "zonas_fc": {
+      "estado": "pendiente_test_2026-11-14",
+      "una_vez_medida_fc_max": {
+        "Z1": "< 75% FCmax (recuperacion)",
+        "Z2": "75-82% (aerobico, el grueso del plan)",
+        "Z3": "82-88% (tempo suave)",
+        "Z4": "88-93% (tempo fuerte)",
+        "Z5": "> 93% (solo test, nunca en este plan)"
+      }
+    },
+    "prioridades_del_bloque": [
+      "COMPRAR el material esta semana (sin el no hay plan de fuerza real)",
+      "Medir la FC max real el sabado 14 de noviembre",
+      "Aprender a trotar suave sin que las rodillas protesten (tu limite ES el trote corto intercalado con andar)",
+      "Pesar un dia fijo por semana, en ayunas (ej: domingos)",
+      "Fijar el habito: es el bloque mas 'facil' y el mas importante de todos"
+    ],
+    "lista_compra_material": [
+      {
+        "item": "Kit de gomas elasticas con asas (5 niveles)",
+        "precio": "29,99 EUR",
+        "estado": "COMPRADO (Decathlon, ID 8975309)"
+      },
+      {
+        "item": "Mancuernas ajustables hasta 20 kg",
+        "precio": "60-80 EUR",
+        "estado": "compra conjunta preparada"
+      },
+      {
+        "item": "Esterilla de ejercicio",
+        "precio": "15-20 EUR",
+        "estado": "pendiente"
+      },
+      {
+        "item": "Kettlebell 12 kg",
+        "precio": "25-30 EUR",
+        "estado": "opcional (se descarta de momento)"
+      }
+    ],
+    "regla_del_bloque": "Si un dia no puedes, NO lo hagas doble otro dia: lo anulas y sigues con el calendario",
+    "reto_caminata": {
+      "nombre": "Reto caminata 100 dias",
+      "dia_actual": 52,
+      "dia_actual_fecha": "2026-11-02",
+      "minutos_actuales": 35,
+      "regla": "cada 10 dias +5 min; objetivo: completar los 100 dias",
+      "dia_final_fecha": "2026-12-20",
+      "subidas": [
+        {
+          "dia_reto": 61,
+          "fecha": "2026-11-11",
+          "min_caminata": 40
+        },
+        {
+          "dia_reto": 71,
+          "fecha": "2026-11-21",
+          "min_caminata": 45
+        },
+        {
+          "dia_reto": 81,
+          "fecha": "2026-12-01",
+          "min_caminata": 50
+        },
+        {
+          "dia_reto": 91,
+          "fecha": "2026-12-11",
+          "min_caminata": 55
+        },
+        {
+          "dia_reto": 100,
+          "fecha": "2026-12-20",
+          "min_caminata": 55
+        }
+      ]
+    }
+  },
+  "dias": [
+    {
+      "id": "B0-01",
+      "fecha": "2026-11-09",
+      "dia_semana": "lunes",
+      "bloque": "B0",
+      "semana_de_bloque": 1,
+      "fase": "base_cero",
+      "tipo": "fuerza_casa",
+      "etiqueta": "Semana 1: la base que te va a proteger las rodillas",
+      "duracion_min": 45,
+      "km_objetivo": null,
+      "zonas_fc": "sin FC obligatoria",
+      "rpe_prev": 5,
+      "calentamiento": "5 min movilidad (tobillos, cadera, hombros) + 10 sentadillas en el aire",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Sentadilla al aire (o goblet si ya tienes mancuerna); 3x10",
+          "observacion": "Bajar en 3s, subir bien derecho. Rodillas alineadas con los pies"
+        },
+        {
+          "orden": 2,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Zancadas estaticas (sin peso); 2x8 por pierna",
+          "observacion": "Da un paso largo y baja la rodilla de atras SIN tocar el suelo"
+        },
+        {
+          "orden": 3,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Puente de gluteos; 3x12",
+          "observacion": "Aprieta el gluteo arriba 2s. Tu primer seguro anti-dolor de rodillas"
+        },
+        {
+          "orden": 4,
+          "categoria": "core",
+          "descripcion": "Plancha frontal 3x30s + lateral 2x20s por lado",
+          "observacion": "Cuerpo en linea, no subas la cadera"
+        },
+        {
+          "orden": 5,
+          "categoria": "accesorios",
+          "descripcion": "Flexiones con rodillas al suelo; 2x max-2",
+          "observacion": "Guarda 2 reps de margen"
+        }
+      ],
+      "instrucciones_detalle": "Primera sesion de fuerza. Hoy no hay running: las rodillas necesitan cimientos ANTES de empezar a trotar. Todo el bloque de fuerza de B0 es con poco peso: estas aprendiendo el movimiento, no rompiendote. Si no tienes mancuerna la sentadilla goblet sale sin pesoAsync perfecto",
+      "alternativa_condicional": "Sin tiempo a las 60 min: haz solo pasos 1, 3 y 4",
+      "nutricion": "Empieza el deficit LIGERO hoy: quita 300-400 kcal de tu dieta habitual, prioriza proteinas (1.6-2 g/kg). Cena con proteina + verdura y sin copiar atras post trabajo pesado",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number",
+          "rango": "1-10"
+        },
+        {
+          "campo": "fc_max_sesion",
+          "tipo": "number",
+          "unidad": "bpm",
+          "obligatorio": false
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string",
+          "opciones": [
+            "0",
+            "1-3 leve",
+            "4-6 moderada",
+            "7-10 fuerte"
+          ]
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Envia hoy el pulsometro de pecho a cargar y prueba a conectarlo con Strava: necesitas que funcione bien el sabado 14 para el test de FC max",
+      "codigo": "F01"
+    },
+    {
+      "id": "B0-02",
+      "fecha": "2026-11-10",
+      "dia_semana": "martes",
+      "bloque": "B0",
+      "semana_de_bloque": 1,
+      "fase": "base_cero",
+      "tipo": "cardio_z2",
+      "etiqueta": "Caminata rápida (base aeróbica)",
+      "duracion_min": 45,
+      "km_objetivo": null,
+      "zonas_fc": "Z1-Z2 (si aun no tienes zonas: 'puedes hablar en frases completas')",
+      "rpe_prev": 4,
+      "calentamiento": "Los primeros 5 min camina tranquilo",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "45 min caminando RÁPIDO por camino o asfalto",
+          "observacion": "Ritmo sostenido, sin apurar: piernas activas, sin dolores raros"
+        }
+      ],
+      "instrucciones_detalle": "Ya llevas 50 dias andando 30 min/dia, hoy se alarga un poco más y se lleva a intensidad controlada. Es tu semilla aerobica y NO importa que se parezca poco a 'correr': el objetivo aerobico es el mismo ⚠ RETO CAMINATA: hoy es tu dia 60 de la serie (35 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "alternativa_condicional": "Lluvia: bici estática o elíptica si tienes; si no, caminata rápida por ciudad",
+      "nutricion": "Dia normal de deficit ligero. Cena con proteinas y menos carbohidrato (no hace falta hoy una comida densa)",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number",
+          "rango": "1-10"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm",
+          "obligatorio": true
+        },
+        {
+          "campo": "fc_max_sesion",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: registra km y FC media. FC media mas abajo = mejor señal aerobica",
+      "codigo": "T01"
+    },
+    {
+      "id": "B0-03",
+      "fecha": "2026-11-11",
+      "dia_semana": "miercoles",
+      "bloque": "B0",
+      "semana_de_bloque": 1,
+      "fase": "base_cero",
+      "tipo": "primera_carrera",
+      "etiqueta": "PRIMERA VEZ trotando: sensación, no kilómetros",
+      "duracion_min": 45,
+      "km_objetivo": null,
+      "zonas_fc": "sin FC obligatoria; percibe esfuerzo",
+      "rpe_prev": 4,
+      "calentamiento": "5 min caminata suave + movilidad de tobillos y cadera",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "10 min caminar rapido",
+          "observacion": "Calentamiento activo"
+        },
+        {
+          "orden": 2,
+          "categoria": "running",
+          "descripcion": "5x 60s trotando MUY suave + 2 min andando entre cada uno",
+          "observacion": "Trote de conversacion: si no puedas responder frases, te vas muy fuerte"
+        },
+        {
+          "orden": 3,
+          "categoria": "cardio",
+          "descripcion": "15 min andar rapido para volver a casa",
+          "observacion": "Se enfria y se acumula volumen de una forma segura"
+        }
+      ],
+      "instrucciones_detalle": "Es tu primer dia corriendo en la vida (o casi). Un total de 5 minutos de trote. VERAS que es 'poco': es exactamente lo correcto. Aqui no se corre para ir rapido, se corre para que tendones, huesos y rodillas aprendan el IMPACTO poco a poco. En 4-5 semanas estos mismos 5 minutos seran 20-25 y no te habras roto nada",
+      "alternativa_condicional": "Si las rodillas protestan al trotar: sustituye el trote por elíptica/bici estática hoy y avísame en la revisión de bloque",
+      "nutricion": "Dia normal. La cena con proteinasample y algo de carbohidrato (no hace falta hoy una comida densa)",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number",
+          "rango": "1-10"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "fc_max_sesion",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava importante hoy: el archivo de la sesión es tu LÍNEA BASE de running",
+      "codigo": "T02"
+    },
+    {
+      "id": "B0-04",
+      "fecha": "2026-11-12",
+      "dia_semana": "jueves",
+      "bloque": "B0",
+      "semana_de_bloque": 1,
+      "fase": "base_cero",
+      "tipo": "fuerza_casa",
+      "etiqueta": "Fuerza #2: repites el patrón y añades excéntricos",
+      "duracion_min": 45,
+      "km_objetivo": null,
+      "zonas_fc": "sin FC obligatoria",
+      "rpe_prev": 5,
+      "calentamiento": "5 min movilidad",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Sentadilla goblet o al aire; 3x10",
+          "observacion": "Bajar 3s, descan&A 1s abajo, subir"
+        },
+        {
+          "orden": 2,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Puente de gluteos a una pierna; 2x10 por lado",
+          "observacion": "Cadera no cae: si se desorienta, vuelve a dos piernas"
+        },
+        {
+          "orden": 3,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Sentadilla excéntrica en silla: baja en 8s hasta tocar y sube apoyándote; 2x6",
+          "observacion": "SUSTO CLAVE para rodillas: aqui se aprende a BAJAR"
+        },
+        {
+          "orden": 4,
+          "categoria": "core",
+          "descripcion": "Plancha 3x35s + pestana lateral 2x25s por lado",
+          "observacion": "Aumentan 5s respecto al lunes"
+        },
+        {
+          "orden": 5,
+          "categoria": "accesorios",
+          "descripcion": "Flexiones con rodillas al suelo; 2x max-2",
+          "observacion": "Cada semana suma 1-2 reps"
+        }
+      ],
+      "instrucciones_detalle": "Los excéntricos (bajar lento) son el material de prevención de rodilla más barato y efectivo que existe. Es la misma técnica que se usa en rehabilitación pre-maraton. Son duros pero muy útiles: si mañana te duelen los cuádriceps, es señal de que las rodillas estaban pidiendo esto",
+      "alternativa_condicional": "Sin material aún: todo sale igual, tal solo sin peso",
+      "nutricion": "Cena con proteinas. Toma proteína después de la sesión y otra por la noche",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number",
+          "rango": "1-10"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: solo duración (no es cardio)",
+      "codigo": "F02"
+    },
+    {
+      "id": "B0-05",
+      "fecha": "2026-11-13",
+      "dia_semana": "viernes",
+      "bloque": "B0",
+      "semana_de_bloque": 1,
+      "fase": "base_cero",
+      "tipo": "cardio_z2",
+      "etiqueta": "Descarga: andar rapido getsolete",
+      "duracion_min": 40,
+      "km_objetivo": null,
+      "zonas_fc": "Z1-Z2",
+      "rpe_prev": 3,
+      "calentamiento": "Sin calentamiento formal, entra andando",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "40 min andar rapido suave",
+          "observacion": "Vas RENOVANDO piernas para mañana, no cansándolas"
+        }
+      ],
+      "instrucciones_detalle": "Viernes es día suave porque mañana es el fin de semana real. NO lo intentes convertir en otra cosa: si hay cansancio acumulado el sábado saldrávalo a menos intensidad y no valdrá para el test ⚠ RETO CAMINATA: hoy es tu dia 63 de la serie (40 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "nutricion": "Carga de carbohidratos LIGERA para mañana: cena hoy con arroz/pasta/batata + proteina. No te cargas: solo cena con CH decente",
+      "consejo": "Strava: duración y FC",
+      "codigo": "T03"
+    },
+    {
+      "id": "B0-06",
+      "fecha": "2026-11-14",
+      "dia_semana": "sabado",
+      "bloque": "B0",
+      "semana_de_bloque": 1,
+      "fase": "base_cero",
+      "tipo": "montana_test_fc",
+      "etiqueta": "SESION CLAVE: primera montaña + TEST DE FC MAX",
+      "duracion_min": 105,
+      "km_objetivo": null,
+      "zonas_fc": "subida del test a Z4-Z5 final (ver indicación)",
+      "rpe_prev": 7,
+      "calentamiento": "Los primeros 30 min sube tranquilo",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "30-40 min de montaña a ritmo conversacional (Sierra de Onil u otra cuesta cercana)",
+          "observacion": "Calentamiento real"
+        },
+        {
+          "orden": 2,
+          "categoria": "cardio",
+          "descripcion": "ELIGE una cuesta larga y constante de 6-8 min con buena superficie",
+          "observacion": "Sin rocas ni riesgo de caer"
+        },
+        {
+          "orden": 3,
+          "categoria": "cardio",
+          "descripcion": "SUBE esa cuesta subiéndola a ritmo fuerte (4-5 min de esfuerzo alto), y los últimos 2-3 min al máximo que puedas sostener sin riesgo de caída",
+          "observacion": "Observa el pulsómetro: la FC más alta de hoy es tu FC máx"
+        },
+        {
+          "orden": 4,
+          "categoria": "cardio",
+          "descripcion": "30-40 min de descenso tranquilo caminando",
+          "observacion": "Las rodillas se AGRADECEN el descenso LENTO: nunca trote de bajada en este bloque"
+        }
+      ],
+      "instrucciones_detalle": "El test oficial de la temporada. Necesitamos tu FC MAX REAL para que todo el plan de los próximos 4 meses trabaje por ZONAS y no por 'a vuela pluma'. El maximo se consigue mejor en cuesta (llano sin base corriendo es difícil alcanzar max). Al bajar NO trotar bajada: camina sin apuro. Si molestan las rodillas AL FINAL del descenso, anótalo: esa señal define tu límite de bajada",
+      "alternativa_condicional": "Si lueve con violencia o no puedes ir a montaña: cuesta larga asfaltada / hacer máquinas (cinta subida 8-10%) con test equivalente",
+      "nutricion": "Desayuno con CH 60-90 min antes (pan/tostadas/platano). Lleva agua. Después: comida con CH + proteina dentro de la hora",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number",
+          "rango": "1-10"
+        },
+        {
+          "campo": "fc_max_test",
+          "tipo": "number",
+          "unidad": "bpm",
+          "obligatorio": true,
+          "nota": "LA FC mas alta del dia = tu FC max"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "tareas": [
+        "Anota la FC max en la web y en Strava: con ese dato se recalculan las zonas y cambia tu plan de mañana en adelante"
+      ],
+      "consejo": "Strava: km, desnivel (+sumar m), FC media y FC max. El dato de FC max ES REQUERIDO para el bloque B1",
+      "codigo": "T04"
+    },
+    {
+      "id": "B0-07",
+      "fecha": "2026-11-15",
+      "dia_semana": "domingo",
+      "bloque": "B0",
+      "semana_de_bloque": 1,
+      "fase": "base_cero",
+      "tipo": "recuperacion_activa",
+      "etiqueta": "Descanso activo",
+      "duracion_min": 35,
+      "km_objetivo": null,
+      "zonas_fc": "Z0-Z1",
+      "rpe_prev": 2,
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "recuperacion",
+          "descripcion": "30-35 min andar tranquilo (o 25 min de bici/elíptica suave)",
+          "observacion": "Accion minúscula que acelera la limpieza post esfuerzo"
+        }
+      ],
+      "instrucciones_detalle": "Día de limpieza. Ayuda a Ayer el cuerpo a recuperar del esfuerzo del sábado sin sumar carga: si tienes sensación de piernas pesadas, esto lo levanta. Si NO te apetece, descansa ⚠ RETO CAMINATA: hoy es tu dia 65 de la serie (40 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "alternativa_condicional": "Descanso total si el sábado te dejó tocado o si ayers dormiste mal",
+      "nutricion": "Dia más relajado, deficit sigue. PESA en ayunas y REGÍSTRALO (primer dato de peso de la serie)",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "peso_manana_kg",
+          "tipo": "number",
+          "obligatorio": true
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava se queja si no hay actividad, pero es correcto no subir nada",
+      "codigo": "T05"
+    },
+    {
+      "id": "B0-08",
+      "fecha": "2026-11-16",
+      "dia_semana": "lunes",
+      "bloque": "B0",
+      "semana_de_bloque": 2,
+      "fase": "base_cero",
+      "tipo": "fuerza_casa",
+      "etiqueta": "Fuerza #3: ahora si, con peso (ya deberías tener mancuerna)",
+      "duracion_min": 50,
+      "km_objetivo": null,
+      "zonas_fc": "sin FC obligatoria",
+      "rpe_prev": 5,
+      "calentamiento": "5 min movilidad + 10 sentadillas con peso ligero",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Sentadilla goblet con mancuerna 10-12 kg; 3x10",
+          "observacion": "El peso permite que el torso quede derecho"
+        },
+        {
+          "orden": 2,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Zancadas estáticas con 1 mancuerna en cada mano (5-8 kg); 2x8 por pierna",
+          "observacion": "Los primeros trote de carga real"
+        },
+        {
+          "orden": 3,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Peso muerto rumano con 2 mancuernas; 3x10",
+          "observacion": "Isquios y lumbar preparados para pendientes y bajadas"
+        },
+        {
+          "orden": 4,
+          "categoria": "core",
+          "descripcion": "Plancha 3x40s + lateral 2x25s por lado",
+          "observacion": "Progresión gradual"
+        },
+        {
+          "orden": 5,
+          "categoria": "accesorios",
+          "descripcion": "Flexiones (si puedes de pies, si no de rodillas); 3x max-2",
+          "observacion": "Progreso progresivo"
+        }
+      ],
+      "instrucciones_detalle": "Con el material ya comprado la fuerza se eleva un grado. peso muerto rumano es el movimiento más valioso del plan: enseña a tu cadena posterior a soportar cuestas largas. El desgaste muscular de hoy es lógico y leve",
+      "alternativa_condicional": "Si aún no tienes material: el mismo circuito a peso corporal con más reps (15 en vez de 10)",
+      "nutricion": "Deficit ligero constante. Post sesión: proteinas",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: duración solamente",
+      "codigo": "F03"
+    },
+    {
+      "id": "B0-09",
+      "fecha": "2026-11-17",
+      "dia_semana": "martes",
+      "bloque": "B0",
+      "semana_de_bloque": 2,
+      "fase": "base_cero",
+      "tipo": "cardio_z2",
+      "etiqueta": "Z2 ya con zonas propias (sictest test del sábado OK)",
+      "duracion_min": 50,
+      "km_objetivo": null,
+      "zonas_fc": "Z2 (75-82% de la FC max medida)",
+      "rpe_prev": 4,
+      "calentamiento": "5 min Z1",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "50 min de trabajo Z2: caminar rápido, cuestas suaves, bici o elíptica",
+          "observacion": "Si aún no tienes zonas: 'test de conversación' = puedes hablar en frases"
+        }
+      ],
+      "instrucciones_detalle": "Con la FC max del sábado ya tienes zonas reales. La sesión Z2 es el pan de cada día del plan entre semana: vas firme pero sin romperte. Si te sales de Z2, baja el ritmo cuesta arriba o camina ⚠ RETO CAMINATA: hoy es tu dia 67 de la serie (40 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "alternativa_condicional": "Lluvia: máquina. Sin máquina: caminata rápida con gomas para flexiones al volver",
+      "nutricion": "Día normal",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm",
+          "obligatorio": true
+        },
+        {
+          "campo": "fc_zona",
+          "tipo": "string",
+          "nota": "Cuanto tiempo en Z2 vs Z3"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: registro con FC + zonas de Z1-Z5, el 'Z2 vs Z3' es el dato más útil",
+      "codigo": "T06"
+    },
+    {
+      "id": "B0-10",
+      "fecha": "2026-11-18",
+      "dia_semana": "miercoles",
+      "bloque": "B0",
+      "semana_de_bloque": 2,
+      "fase": "base_cero",
+      "tipo": "marchar_corriendo",
+      "etiqueta": "Marchar-corriendo progresando: ahora 90s de trote",
+      "duracion_min": 50,
+      "km_objetivo": null,
+      "zonas_fc": "trotar a Z2 (conversación)",
+      "rpe_prev": 4,
+      "calentamiento": "5-10 min caminar rápido",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "10 min caminar rapido",
+          "observacion": "Entras calenteado"
+        },
+        {
+          "orden": 2,
+          "categoria": "running",
+          "descripcion": "6x 90s trotar suave + 2 min andar",
+          "observacion": "Total 9 min de trote: +4 min vs semana 1"
+        },
+        {
+          "orden": 3,
+          "categoria": "cardio",
+          "descripcion": "10-15 min andar rapido para cerrar",
+          "observacion": "Cierra el bucle"
+        }
+      ],
+      "instrucciones_detalle": "Progresión de impact: la misma con más tiempo por repetición. Si las rodillas protestan al pasar de 60s a 90s, NO es mala señal del área: es normal en la progresión. Si el dolor es 4-6/10, me lo marcúas en la revisión y el siguiente domingo lo ponemos de descanso ⚠ RETO CAMINATA: hoy es tu dia 68 de la serie (40 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "alternativa_condicional": "Si la semana 1 fue demasiado fuerte en rodillas, truncamos: 6x 45s trotar + 2 min andar",
+      "nutricion": "Día normal",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string",
+          "obligatorio": true
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: registra y guarda el archivo",
+      "codigo": "T07"
+    },
+    {
+      "id": "B0-11",
+      "fecha": "2026-11-19",
+      "dia_semana": "jueves",
+      "bloque": "B0",
+      "semana_de_bloque": 2,
+      "fase": "base_cero",
+      "tipo": "fuerza_casa",
+      "etiqueta": "Fuerza #4: añades búlgara (excéntrico de rodilla)",
+      "duracion_min": 50,
+      "km_objetivo": null,
+      "zonas_fc": "sin FC obligatoria",
+      "rpe_prev": 6,
+      "calentamiento": "5 min movilidad + zancadas suaves",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Sentadilla goblet 3x10 con 12 kg",
+          "observacion": "Patrón instalado"
+        },
+        {
+          "orden": 2,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Sentadilla búlgara con pie trasero en silla; 2x8 por pierna BAJANDO 4s",
+          "observacion": "El rey de la prevención de rodilla. Si te roba el equilibrio, apóyate en una pared"
+        },
+        {
+          "orden": 3,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Peso muerto rumano 3x10",
+          "observacion": "Sube algo de peso si la semana pasada fue fácil"
+        },
+        {
+          "orden": 4,
+          "categoria": "core",
+          "descripcion": "Pallof press con goma 2x10 por lado + plancha 3x40s",
+          "observacion": "Anti-rotación para technical montaña"
+        },
+        {
+          "orden": 5,
+          "categoria": "accesorios",
+          "descripcion": "Flexiones 3x max-2",
+          "observacion": "Entrena todas las semanas"
+        }
+      ],
+      "instrucciones_detalle": "La búlgara es la única herramienta de prevención de rodillas que casi no falla. Es desagradable al principio pero muy efectiva. 12-16 semanas de esto y tus rodillas aguantarán bajadas que hoy no tocarías",
+      "nutricion": "Post sesión proteína",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: duración",
+      "codigo": "F04"
+    },
+    {
+      "id": "B0-12",
+      "fecha": "2026-11-20",
+      "dia_semana": "viernes",
+      "bloque": "B0",
+      "semana_de_bloque": 2,
+      "fase": "base_cero",
+      "tipo": "cardio_z2",
+      "etiqueta": "Descarga pre-fin de semana",
+      "duracion_min": 40,
+      "km_objetivo": null,
+      "zonas_fc": "Z1-Z2",
+      "rpe_prev": 3,
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "40 min andar rapido / bici suave",
+          "observacion": "Lo mínimo para estar fresco mañana"
+        }
+      ],
+      "instrucciones_detalle": "Igual que la semana anterior: el viernes es de giros suaves para entrar fresco el sábado. NO duplico sesiones para 'compensar' algo ⚠ RETO CAMINATA: hoy es tu dia 70 de la serie (40 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "nutricion": "Cena con CH para mañana",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: duración",
+      "codigo": "T08"
+    },
+    {
+      "id": "B0-13",
+      "fecha": "2026-11-21",
+      "dia_semana": "sabado",
+      "bloque": "B0",
+      "semana_de_bloque": 2,
+      "fase": "base_cero",
+      "tipo": "montana_larga",
+      "etiqueta": "Sesión larga en montaña: 2h supervise las rodillas",
+      "duracion_min": 120,
+      "km_objetivo": null,
+      "zonas_fc": "Z2 (75-82% FC max)",
+      "rpe_prev": 5,
+      "calentamiento": "Primeros 20 min suaves saliendo por la cara suave",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "2h por montaña (Sierra de Onil / Mariola) con desnivel moderado",
+          "observacion": "Camina las cuestas; no hay running de bajada"
+        },
+        {
+          "orden": 2,
+          "categoria": "tecnica",
+          "descripcion": "5-10 min del recorrido: técnica de bajada CONTROLADA con paso corto y rodillas suaves",
+          "observacion": "Solamente un mini-tramo: la bajada larga va en B2"
+        }
+      ],
+      "instrucciones_detalle": "La sesión rey de la semana. 2h suave es la dosis que pocos atletas respetan el primer mes y después se arrepienten. Es lo que construye el 'motor' aeróbico y la resistencia del pie y el tobillo. El desnivel se busca en subidas constantes, no en bajadas toxicas",
+      "alternativa_condicional": "Lluvia: 2h de cinta en pendiente o bici, troceadas si hace falta, respetando el volumen total",
+      "nutricion": "Desayuno 60-90 min antes con CH. Lleva agua + algo de CH si hay frío (1 barrita). Comida post con CH + proteina",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm",
+          "obligatorio": true
+        },
+        {
+          "campo": "km_real",
+          "tipo": "number",
+          "unidad": "km"
+        },
+        {
+          "campo": "desnivel_positivo_m",
+          "tipo": "number",
+          "unidad": "m"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: km, desnivel, FC media. Van a construir tu base volume real",
+      "codigo": "T09"
+    },
+    {
+      "id": "B0-14",
+      "fecha": "2026-11-22",
+      "dia_semana": "domingo",
+      "bloque": "B0",
+      "semana_de_bloque": 2,
+      "fase": "base_cero",
+      "tipo": "recuperacion_activa",
+      "etiqueta": "Domingo de limpieza",
+      "duracion_min": 35,
+      "km_objetivo": null,
+      "zonas_fc": "Z0-Z1",
+      "rpe_prev": 2,
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "recuperacion",
+          "descripcion": "30-35 min andar suave o descanso total",
+          "observacion": "Lo que pida el cuerpo"
+        }
+      ],
+      "instrucciones_detalle": "El trato del plan: fin de semana con CARGA el sábado y LIMPIEZA el domingo. Es así de simple, es así de sostenible ⚠ RETO CAMINATA: hoy es tu dia 72 de la serie (45 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "nutricion": "PESO EN AYUNAS y registra. Comer relajado pero con cabeza",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "peso_manana_kg",
+          "tipo": "number",
+          "obligatorio": true
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Segunda pesada semanal: compara con la primera y observa la tendencia",
+      "codigo": "T10"
+    },
+    {
+      "id": "B0-15",
+      "fecha": "2026-11-23",
+      "dia_semana": "lunes",
+      "bloque": "B0",
+      "semana_de_bloque": 3,
+      "fase": "descarga_bloque",
+      "tipo": "fuerza_casa",
+      "etiqueta": "Semana DESCARGA: fuerza con menos volumen",
+      "duracion_min": 40,
+      "km_objetivo": null,
+      "zonas_fc": "sin FC obligatoria",
+      "rpe_prev": 4,
+      "calentamiento": "5 min movilidad",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Sentadilla goblet 2x10",
+          "observacion": "Menos series"
+        },
+        {
+          "orden": 2,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Búlgara 2x6 por pierna (sin bajar tando de lento)",
+          "observacion": "Descarga manteniendo estímulo"
+        },
+        {
+          "orden": 3,
+          "categoria": "core",
+          "descripcion": "Plancha 2x30s + lateral 2x20s",
+          "observacion": "Circuito corto"
+        }
+      ],
+      "instrucciones_detalle": "Semana 3 del bloque = DESCARGA PROGRAMADA: -20-30% de volumen en TODO. No significa 'menos importante': el cuerpo se ADAPTA en las semanas fáciles, no en las duras. Si el plan funciona bien, esta semana te sientes más fresco que ninguna de las anteriores",
+      "nutricion": "Constante",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: duración",
+      "codigo": "F05"
+    },
+    {
+      "id": "B0-16",
+      "fecha": "2026-11-24",
+      "dia_semana": "martes",
+      "bloque": "B0",
+      "semana_de_bloque": 3,
+      "fase": "descarga_bloque",
+      "tipo": "cardio_z2",
+      "etiqueta": "Descarga: cardio suave",
+      "duracion_min": 40,
+      "km_objetivo": null,
+      "zonas_fc": "Z1-Z2",
+      "rpe_prev": 3,
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "40 min Z1-Z2 suave",
+          "observacion": "Menos minutos que la semana 2"
+        }
+      ],
+      "instrucciones_detalle": "Descarga: 40 min en vez de 50. Si esta semana te apetece HACER más, es buena señal (cuerpo recuperado), pero NO lo hagas: el plan gana con paciencia ⚠ RETO CAMINATA: hoy es tu dia 74 de la serie (45 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "nutricion": "Constante",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: duración + FC",
+      "codigo": "T11"
+    },
+    {
+      "id": "B0-17",
+      "fecha": "2026-11-25",
+      "dia_semana": "miercoles",
+      "bloque": "B0",
+      "semana_de_bloque": 3,
+      "fase": "descarga_bloque",
+      "tipo": "marchar_corriendo",
+      "etiqueta": "Marchar-corriendo: mantienes ratio, menos reps",
+      "duracion_min": 45,
+      "km_objetivo": null,
+      "zonas_fc": "trote a Z2",
+      "rpe_prev": 3,
+      "calentamiento": "5-10 min caminar",
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "10 min caminar rapido"
+        },
+        {
+          "orden": 2,
+          "categoria": "running",
+          "descripcion": "4x 90s trotar suave + 2 min andar",
+          "observacion": "Menos repeticiones pero mismo trotar"
+        }
+      ],
+      "instrucciones_detalle": "Mantienes el patrón de trote pero con menos impacto. Este es el dia que te prepara para que B1 empieze con nuevas progresiones de running ⚠ RETO CAMINATA: hoy es tu dia 75 de la serie (45 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "nutricion": "Constante",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string",
+          "obligatorio": true
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: registra",
+      "codigo": "T12"
+    },
+    {
+      "id": "B0-18",
+      "fecha": "2026-11-26",
+      "dia_semana": "jueves",
+      "bloque": "B0",
+      "semana_de_bloque": 3,
+      "fase": "descarga_bloque",
+      "tipo": "fuerza_casa",
+      "etiqueta": "Fuerza #5 (descarga)",
+      "duracion_min": 40,
+      "km_objetivo": null,
+      "zonas_fc": "sin FC obligatoria",
+      "rpe_prev": 4,
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "fuerza_piernas",
+          "descripcion": "Peso muerto rumano 2x10; goblet 2x10",
+          "observacion": "Series de menos"
+        },
+        {
+          "orden": 2,
+          "categoria": "core",
+          "descripcion": "Pallof + plancha corto",
+          "observacion": "Circuito"
+        },
+        {
+          "orden": 3,
+          "categoria": "accesorios",
+          "descripcion": "Flexiones 2x max-2",
+          "observacion": "Suficiente"
+        }
+      ],
+      "instrucciones_detalle": "Sesión corta y honesta: mantienes fuerza sin fatiga. Semanas de descarga son cuando el cuerpo 'instala' lo aprendido",
+      "nutricion": "Constante",
+      "rutina": [],
+      "consejo": "Strava: duración",
+      "codigo": "F06"
+    },
+    {
+      "id": "B0-19",
+      "fecha": "2026-11-27",
+      "dia_semana": "viernes",
+      "bloque": "B0",
+      "semana_de_bloque": 3,
+      "fase": "descarga_bloque",
+      "tipo": "descanso",
+      "etiqueta": "Descanso total (descarga)",
+      "duracion_min": 0,
+      "km_objetivo": null,
+      "zonas_fc": "-",
+      "rpe_prev": 0,
+      "sesion": [],
+      "instrucciones_detalle": "Descanso total en semana de descarga. Sumará calidad a tu recuperación, no lo transformes en 'paseo' si no te apetece: el sábado hay montaña corta y el domingo se cierra el bloque ⚠ RETO CAMINATA: hoy es tu dia 77 de la serie (45 min de caminar diario). La sesion cuenta si incluye caminar; si no, añádelos aparte. ¡Sin saltarse ningun dia!",
+      "nutricion": "Constante",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "peso_manana_kg",
+          "tipo": "number",
+          "opcional": true
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: nada",
+      "codigo": null
+    },
+    {
+      "id": "B0-20",
+      "fecha": "2026-11-28",
+      "dia_semana": "sabado",
+      "bloque": "B0",
+      "semana_de_bloque": 3,
+      "fase": "descarga_bloque",
+      "tipo": "montana_larga",
+      "etiqueta": "Descarga en montaña: 1h30 suave",
+      "duracion_min": 90,
+      "km_objetivo": null,
+      "zonas_fc": "Z1-Z2",
+      "rpe_prev": 3,
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "cardio",
+          "descripcion": "1h30 montaña suave, caminando cuestas, sin exceso de bajadas",
+          "observacion": "Menos volumen que la semana 2 (2h) pero no es descanso"
+        }
+      ],
+      "instrucciones_detalle": "La descarga va del 20-30% de menos, NO de un descanso total. Mantienes el habito de montaña semanal que es el corazón del plan de trail",
+      "nutricion": "Desayuno normal + post comida",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "duracion_min_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "rpe_real",
+          "tipo": "number"
+        },
+        {
+          "campo": "fc_media",
+          "tipo": "number",
+          "unidad": "bpm"
+        },
+        {
+          "campo": "km_real",
+          "tipo": "number",
+          "unidad": "km"
+        },
+        {
+          "campo": "desnivel_positivo_m",
+          "tipo": "number",
+          "unidad": "m"
+        },
+        {
+          "campo": "molestia_rodilla",
+          "tipo": "string"
+        },
+        {
+          "campo": "sensaciones",
+          "tipo": "texto"
+        }
+      ],
+      "consejo": "Strava: km y desnivel",
+      "codigo": "T13"
+    },
+    {
+      "id": "B0-21",
+      "fecha": "2026-11-29",
+      "dia_semana": "domingo",
+      "bloque": "B0",
+      "semana_de_bloque": 3,
+      "fase": "descarga_bloque",
+      "tipo": "revision_bloque",
+      "etiqueta": "Cierra B0 + REVISIÓN de bloque con el agente",
+      "duracion_min": 0,
+      "km_objetivo": null,
+      "zonas_fc": "-",
+      "rpe_prev": 0,
+      "sesion": [
+        {
+          "orden": 1,
+          "categoria": "revision",
+          "descripcion": "Cierra B0: envia las estadísticas del mes a Strava + nota en kg + estado de rodillas + sensaciones",
+          "observacion": "El agente revisa criterios 4.7 y reconstruye B1 en función del progreso"
+        }
+      ],
+      "instrucciones_detalle": "Los datos que la skill NECESITA para construir B1: FC max (del sab 14), peso de las 3 semanas (85 → cuánto), rodillas (0-10 regular), honestidad en sensaciones. Sin esta revisión, B1 no se puede generar bien; el agente te lo va a pedir",
+      "nutricion": "-",
+      "rutina": [
+        {
+          "campo": "hecho",
+          "tipo": "bool"
+        },
+        {
+          "campo": "revisar_bloque_con_agente",
+          "tipo": "bool",
+          "obligatorio": true
+        },
+        {
+          "campo": "peso_manana_kg",
+          "tipo": "number",
+          "obligatorio": true
+        },
+        {
+          "campo": "rodillas_resumen",
+          "tipo": "texto",
+          "obligatorio": true
+        },
+        {
+          "campo": "sensaciones_3_semanas",
+          "tipo": "texto",
+          "obligatorio": true
+        }
+      ],
+      "consejo": "Strava: el resumen semanal del mes hay que leerlo (tiempo total, km, desnivel, FC media)",
+      "codigo": null
+    }
+  ]
+}
